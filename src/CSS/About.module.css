@@ -1,0 +1,59 @@
+.aboutHeader {
+  margin: 10px;
+}
+
+.aboutPageContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.rabbitImage {
+  margin: 40px;
+  height: 280px;
+  width: 280px;
+  border-radius: 280px;
+}
+
+.welcomeText {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.GPImage {
+  margin: 40px;
+  height: 280px;
+  width: 280px;
+  border-radius: 280px;
+}
+
+@media only screen and (max-width: 768px) {
+  .aboutPageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .rabbitImage {
+    margin: 40px;
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+  }
+
+  .welcomeText {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .GPImage {
+    margin: 40px;
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+  }
+}

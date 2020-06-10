@@ -1,0 +1,40 @@
+.donationsContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.hayImage {
+  margin: 40px;
+  height: 400px;
+  width: 400px;
+  border-radius: 90px;
+}
+
+.donationsText {
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 200px;
+}
+
+@media only screen and (max-width: 768px) {
+  .donationsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hayImage {
+    margin: 40px;
+    height: 250px;
+    width: 250px;
+    border-radius: 90px;
+  }
+
+  .donationsText {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 200px;
+  }
+}

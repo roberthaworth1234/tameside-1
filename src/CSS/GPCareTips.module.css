@@ -1,0 +1,12 @@
+.outerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 40px;
+}
+
+h3 {
+  font-family: "Patrick Hand", cursive;
+  font-size: 35px;
+  margin: 20px;
+}

@@ -1,0 +1,102 @@
+.outerContainer {
+  margin-bottom: 100px;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.sponsorContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-content: space-evenly;
+  align-content: center;
+}
+
+.title {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.infoText {
+  margin: 20px;
+}
+
+.residentCard {
+  text-decoration: none;
+  color: #000000;
+}
+
+.residentCard:hover {
+  color: #98c01f;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+.residentName {
+  font-family: "Patrick Hand", cursive;
+  font-size: 35px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.residentImage {
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 30px;
+  height: 45%;
+  width: 65%;
+}
+
+.residentInfo {
+  margin: 20px;
+  color: #000000;
+}
+
+@media only screen and (max-width: 768px) {
+  .titleContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .sponsorContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .title {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .infoText {
+    margin: 20px;
+  }
+
+  .residentName {
+    font-family: "Patrick Hand", cursive;
+    font-size: 35px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .residentImage {
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 30px;
+    height: 45%;
+    width: 65%;
+  }
+
+  .residentInfo {
+    margin: 20px;
+  }
+}

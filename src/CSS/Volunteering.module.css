@@ -1,0 +1,64 @@
+.volunteeringContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.volunteeringTitle {
+  font-family: "Patrick Hand", cursive;
+  font-size: 35px;
+  margin-top: 40px;
+}
+
+.volunteeringInfo {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: 80px;
+  margin-right: 40px;
+}
+
+.hutches {
+  height: 30%;
+  width: 30%;
+  border-radius: 60px;
+  margin: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  .volunteeringContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .volunteeringTitle {
+    font-family: "Patrick Hand", cursive;
+    font-size: 35px;
+  }
+
+  .volunteeringInfo {
+    margin: 40px;
+  }
+
+  .hutches {
+    height: 80%;
+    width: 80%;
+    border-radius: 60px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 200px;
+  }
+}

@@ -1,0 +1,65 @@
+.directionsContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.roadMap {
+  margin: 40px;
+  border: 2px solid black;
+}
+
+.directionsHeader {
+  margin: 40px;
+}
+
+.directions {
+  margin: 40px;
+}
+
+.subheader {
+  margin-bottom: 10px;
+}
+
+.contactsHeader {
+  margin: 40px;
+}
+
+.details {
+  margin: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  .directionsContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .roadMap {
+    margin: 40px;
+    border: 2px solid black;
+    height: 80%;
+    width: 80%;
+  }
+
+  .directionsHeader {
+    margin: 40px;
+  }
+
+  .directions {
+    margin: 40px;
+  }
+
+  .subheader {
+    margin-bottom: 10px;
+  }
+
+  .contactsHeader {
+    margin: 40px;
+  }
+
+  .details {
+    margin: 40px;
+  }
+}

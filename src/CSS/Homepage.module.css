@@ -1,0 +1,99 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.guineaPigs {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  margin-left: 60px;
+  margin-right: 0px;
+  padding: 0px;
+  height: 200px;
+  width: 200px;
+}
+
+.rabbits {
+  margin-top: 100px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0px;
+  height: 200px;
+  width: 200px;
+}
+
+.guineaPig {
+  margin-top: 100px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0px;
+  height: 200px;
+  width: 200px;
+}
+
+.welcomeText {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 60px;
+}
+
+.adoptTxt {
+  display: block;
+  font-family: "Patrick Hand", cursive;
+  font-size: 45px;
+  margin-bottom: 200px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .guineaPigs {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 0px;
+    padding: 0px;
+    height: 200px;
+    width: 200px;
+  }
+
+  .rabbit {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 0px;
+    padding: 0px;
+    height: 200px;
+    width: 200px;
+  }
+
+  .guineaPig {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 0px;
+    padding: 0px;
+    height: 200px;
+    width: 200px;
+  }
+
+  .welcomeText {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .adoptTxt {
+    font-family: "Patrick Hand", cursive;
+    font-size: 25px;
+    margin-bottom: 200px;
+  }
+}
